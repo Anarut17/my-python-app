@@ -172,3 +172,24 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Игнорируем виртуальное окружение
+venv/
+
+# Игнорируем файлы кэша Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Игнорируем логи и временные файлы
+*.log
+*.tmp
+
+# Игнорируем артефакты Docker
+*.tar
+*.img
+
+# Игнорируем настройки IDE (если используете VS Code, PyCharm и др.)
+.vscode/
+.idea/
+*.swp
